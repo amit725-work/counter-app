@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CoveredBySage.github.io/counter-app/precache-manifest.e1aa7a9a0c7d814282a485154c89c2f4.js"
+  "/counter-app/precache-manifest.0ae8ed47404f194ae88ad03955b1f6b2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/CoveredBySage.github.io/counter-app/index.html", {
+workbox.routing.registerNavigationRoute("/counter-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
